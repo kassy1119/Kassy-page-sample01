@@ -235,6 +235,10 @@ body {
         margin-bottom: 40px;
     }
 
+    .speace{
+        margin-bottom: 20px;
+    }
+
     .pcmainTopics__btn {
         width: 500px;
         height: 7px;
@@ -242,6 +246,7 @@ body {
         flex-shrink: 0;
         font-size: 2.4rem;
         padding: 17.5px 50px 17.5px;
+        margin-top: 50px;
         margin-left: 81px;
         background: #F9E575;
     }
@@ -432,7 +437,7 @@ body {
         width: 253px;
         height: 50px;
         flex-shrink: 0;
-        margin-top: 49px;
+        margin-top: 77px;
         margin-left: 593px;
         margin-right: 594px;
     }
