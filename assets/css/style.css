@@ -449,6 +449,7 @@ body {
 
     .gallery__arrow {
         font-size: 3.2rem;
+        margin-top: -8px;
         margin-left: 20px;
     }
 }
