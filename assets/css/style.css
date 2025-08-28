@@ -15,13 +15,13 @@ body {
 
 
 
-   /* *{
+/* *{
     outline: 2px red solid;
-} */ 
- 
+} */
+
 /* header */
 
-.header{
+.header {
     margin-inline: auto;
 }
 
@@ -116,11 +116,11 @@ body {
 }
 
 /* main */
-.main{
+.main {
     margin-inline: auto;
 }
 
-.mainImg{
+.mainImg {
     margin-inline: auto;
     width: 375px;
     overflow: hidden;
@@ -128,6 +128,17 @@ body {
 
 .mainImg__sp {
     margin-inline: auto;
+}
+
+.mainTopics_Img__sp2 {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 170px;
+    top: -40px;
+
 }
 
 .mainImg__pc {
@@ -163,7 +174,7 @@ body {
 .mainTopics__txt {
     font-size: 1.4rem;
     font-weight: 400;
-    margin-top: 11px;
+    margin-top: -40px;
 }
 
 .mainTopics_Img__pc {
@@ -199,7 +210,7 @@ body {
         margin-inline: auto;
     }
 
-    .mainImg{
+    .mainImg {
         width: 100%;
     }
 
@@ -213,6 +224,16 @@ body {
 
     .pcmainTopics_Img__pc {
         margin: 138px 46px 138px 37px;
+    }
+
+    .pcmainTopics_Img__pc2 {
+        width: 117px;
+        height: 117px;
+        flex-shrink: 0;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 55px;
+
     }
 
     .pcmainTopics__div {
@@ -235,7 +256,7 @@ body {
         margin-bottom: 40px;
     }
 
-    .speace{
+    .speace {
         margin-bottom: 20px;
     }
 
@@ -269,11 +290,29 @@ body {
 .section__title {
     font-size: 2.4rem;
     font-weight: 700;
-
 }
 
 .section__title span {
     color: #FE7777;
+}
+
+.commitment {
+    margin-top: -90px;
+}
+
+.commitment__img-sp {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 100px;
+    top: 140px;
+
+}
+
+.commitment__img-pc {
+    display: none;
 }
 
 /* commitment */
@@ -305,12 +344,12 @@ body {
     margin-left: 98px;
 }
 
-.commitment__txt span{
+.commitment__txt span {
     color: #FE7777;
     border-bottom: 1px solid #FE7777;
 }
 
-.commitment__imgpc{
+.commitment__imgpc {
     display: none;
 }
 
@@ -327,6 +366,26 @@ body {
         font-size: 2.4rem;
     }
 
+    .commitment {
+        margin-top: -150px;
+    }
+
+
+    .commitment__img-sp {
+        display: none;
+    }
+
+    .commitment__img-pc {
+        display: block;
+        width: 117px;
+        height: 117px;
+        flex-shrink: 0;
+        aspect-ratio: 1/1;
+        position: relative;
+        left: 660px;
+        top: 170px;
+    }
+
     .commitment__item {
         display: flex;
         width: 1218px;
@@ -339,7 +398,7 @@ body {
         display: none;
     }
 
-    .commitment__imgpc{
+    .commitment__imgpc {
         display: flex;
     }
 
@@ -377,8 +436,22 @@ body {
     margin-top: 40px;
 }
 
+.gallery__img-sp {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+}
+
+.gallery__img-pc {
+    display: none;
+}
+
 .gallery__img {
-    margin: 40px 79px;
+    margin: 0 79px 40px;
 }
 
 .gallery__btn {
@@ -422,6 +495,21 @@ body {
         margin-top: 77px;
     }
 
+    .gallery__img-sp {
+        display: none;
+    }
+
+    .gallery__img-pc {
+        display: flex;
+        width: 117px;
+        height: 117px;
+        flex-shrink: 0;
+        aspect-ratio: 1/1;
+        position: relative;
+        left: 780px;
+        bottom: 73px;
+    }
+
     .gallery__img {
         display: none;
     }
@@ -430,7 +518,7 @@ body {
         display: inline-flex;
         align-items: center;
         gap: 107px;
-        margin: 77px 25px 0;
+        margin: 0 25px;
     }
 
     .gallery__btn {
@@ -469,7 +557,7 @@ body {
     margin-top: 6px;
 }
 
-.information__item{
+.information__item {
     width: 375px;
     margin-inline: auto;
     overflow: hidden;
@@ -579,6 +667,21 @@ body {
     font-weight: 400;
 }
 
+.information_img-sp {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+
+}
+
+.information_img-pc {
+    display: none;
+}
+
 @media screen and (min-width: 769px) {
 
     .information {
@@ -601,6 +704,7 @@ body {
         gap: 40px;
         margin-inline: auto;
         overflow: hidden;
+        padding-top: 100px;
     }
 
     .information__item1 {
@@ -676,6 +780,20 @@ body {
     .information__txt5 {
         width: auto;
         font-size: 2.0rem;
+    }
+
+    .information_img-sp {
+        display: none;
+    }
+
+    .information_img-pc {
+        display: flex;
+        width: 90px;
+        height: 90px;
+        flex-shrink: 0;
+        aspect-ratio: 1/1;
+        position: relative;
+        bottom: 100px;
     }
 }
 
